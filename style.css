@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-content: center;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.text {
+    padding-top: 150px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.buttons { 
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    padding-top: 150px;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+
+}
